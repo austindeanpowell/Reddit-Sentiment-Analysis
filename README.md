@@ -1,5 +1,4 @@
 # Reddit-Sentiment-Analysis
-
 This repository contains a Python-based sentiment analysis tool designed to extract and evaluate sentiment from Reddit comments using NLP (Natural Language Processing), leveraging the VADER sentiment analyzer (from the NLTK library) and the PRAW (Python Reddit API Wrapper).
 
 **The Reddit Sentiment Analyzer project provides an easy-to-use pipeline for:**
