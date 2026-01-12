@@ -21,7 +21,7 @@ reddit = praw.Reddit(
     user_agent=os.getenv("REDDIT_USER_AGENT")
 )
 
-#  List of post IDs you want to scrape (add as many as you want)
+#  List of post IDs 
 post_ids = ["kurhm6", "wl5ft2","k4q7wl"]  # <<< Add all the post IDs here
 
 # To hold all comments from all posts
@@ -61,4 +61,4 @@ df = pd.DataFrame(all_comments_data, columns=["Post_ID", "Comment_ID", "Text", "
 filename = f"reddit_multi_post_sentiment_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 df.to_csv(filename, index=False)
 
-print(f"✅ CSV file saved: {filename}")
+print(f" CSV file saved: {filename}")
