@@ -21,7 +21,7 @@ reddit = praw.Reddit(
     user_agent=os.getenv("REDDIT_USER_AGENT")
 )
 
-# 🔥 List of post IDs you want to scrape (add as many as you want)
+#  List of post IDs you want to scrape (add as many as you want)
 post_ids = ["kurhm6", "wl5ft2","k4q7wl"]  # <<< Add all the post IDs here
 
 # To hold all comments from all posts
